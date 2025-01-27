@@ -92,6 +92,9 @@ class PolyPredictorApp:
         self.config.encoder = 'resnet50'
         self.config.encoder_weights = 'imagenet'
         
+        # Initialize checkpoint as None
+        self.checkpoint = None
+        
         # Determine the number of classes from the checkpoint
         try:
             model_path = self.config.model_path
@@ -133,6 +136,11 @@ class PolyPredictorApp:
         
         # Load trained weights
         try:
+            # Ensure checkpoint is loaded
+            if self.checkpoint is None:
+                model_path = self.config.model_path
+                self.checkpoint = torch.load(model_path, map_location='cpu')
+            
             # Extract state dictionary
             if 'state_dict' in self.checkpoint:
                 state_dict = self.checkpoint['state_dict']
