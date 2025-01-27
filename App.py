@@ -95,13 +95,13 @@ class PolyPredictorApp:
         # Determine the number of classes from the checkpoint
         try:
             model_path = self.config.model_path
-            checkpoint = torch.load(model_path, map_location='cpu')
+            self.checkpoint = torch.load(model_path, map_location='cpu')
             
             # Extract state dictionary
-            if 'state_dict' in checkpoint:
-                state_dict = checkpoint['state_dict']
+            if 'state_dict' in self.checkpoint:
+                state_dict = self.checkpoint['state_dict']
             else:
-                state_dict = checkpoint
+                state_dict = self.checkpoint
             
             # Find the number of classes from the segmentation head
             segmentation_head_keys = [k for k in state_dict.keys() if 'segmentation_head.0.weight' in k or 'seg_head.weight' in k]
@@ -134,10 +134,10 @@ class PolyPredictorApp:
         # Load trained weights
         try:
             # Extract state dictionary
-            if 'state_dict' in checkpoint:
-                state_dict = checkpoint['state_dict']
+            if 'state_dict' in self.checkpoint:
+                state_dict = self.checkpoint['state_dict']
             else:
-                state_dict = checkpoint
+                state_dict = self.checkpoint
             
             # Remove keys that don't match the current model
             keys_to_remove = [k for k in list(state_dict.keys()) if k not in self.model.state_dict()]
