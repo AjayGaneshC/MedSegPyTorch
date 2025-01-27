@@ -1,0 +1,1325 @@
+[2025-01-20 14:14] [!] Train from scratch
+[2025-01-20 14:14] 
+
+
+######################### Config Informations #########################
+dataset: polyp
+subset: kvasir
+num_class: 2
+model: ducknet
+encoder: None
+decoder: None
+loss_type: ce
+optimizer_type: adam
+lr_policy: cos_warmup
+total_epoch: 400
+train_bs: 16
+val_bs: 1
+train_num: 800
+val_num: 100
+gpu_num: 1
+num_workers: 8
+amp_training: False
+DDP: False
+kd_training: False
+synBN: True
+use_ema: False
+#######################################################################
+
+
+[2025-01-20 14:22] [!] Train from scratch
+[2025-01-20 14:22] 
+
+
+######################### Config Informations #########################
+dataset: polyp
+subset: kvasir
+num_class: 2
+model: resunet
+encoder: None
+decoder: None
+loss_type: ce
+optimizer_type: adam
+lr_policy: cos_warmup
+total_epoch: 400
+train_bs: 16
+val_bs: 1
+train_num: 800
+val_num: 100
+gpu_num: 1
+num_workers: 8
+amp_training: False
+DDP: False
+kd_training: False
+synBN: True
+use_ema: False
+#######################################################################
+
+
+[2025-01-20 14:36] [!] Train from scratch
+[2025-01-20 14:36] 
+
+
+######################### Config Informations #########################
+dataset: polyp
+subset: kvasir
+num_class: 2
+model: smp
+encoder: resnet101
+decoder: unet
+loss_type: ce
+optimizer_type: adam
+lr_policy: cos_warmup
+total_epoch: 400
+train_bs: 16
+val_bs: 1
+train_num: 800
+val_num: 100
+gpu_num: 1
+num_workers: 8
+amp_training: False
+DDP: False
+kd_training: False
+synBN: True
+use_ema: False
+#######################################################################
+
+
+[2025-01-20 14:36]  Epoch0 mdice: 0.8590 	| best mdice so far: 0.0000
+[2025-01-20 14:36]  Epoch0 miou: 0.7656 	| best mdice so far: 0.0000
+
+[2025-01-20 14:36]  Epoch1 mdice: 0.7647 	| best mdice so far: 0.8590
+[2025-01-20 14:36]  Epoch1 miou: 0.6543 	| best mdice so far: 0.8590
+
+[2025-01-20 14:37]  Epoch2 mdice: 0.7923 	| best mdice so far: 0.8590
+[2025-01-20 14:37]  Epoch2 miou: 0.6815 	| best mdice so far: 0.8590
+
+[2025-01-20 14:37]  Epoch3 mdice: 0.8526 	| best mdice so far: 0.8590
+[2025-01-20 14:37]  Epoch3 miou: 0.7574 	| best mdice so far: 0.8590
+
+[2025-01-20 14:37]  Epoch4 mdice: 0.8485 	| best mdice so far: 0.8590
+[2025-01-20 14:37]  Epoch4 miou: 0.7532 	| best mdice so far: 0.8590
+
+[2025-01-20 14:37]  Epoch5 mdice: 0.8742 	| best mdice so far: 0.8590
+[2025-01-20 14:37]  Epoch5 miou: 0.7878 	| best mdice so far: 0.8590
+
+[2025-01-20 14:37]  Epoch6 mdice: 0.8042 	| best mdice so far: 0.8742
+[2025-01-20 14:37]  Epoch6 miou: 0.6911 	| best mdice so far: 0.8742
+
+[2025-01-20 14:38]  Epoch7 mdice: 0.8538 	| best mdice so far: 0.8742
+[2025-01-20 14:38]  Epoch7 miou: 0.7605 	| best mdice so far: 0.8742
+
+[2025-01-20 14:38]  Epoch8 mdice: 0.8877 	| best mdice so far: 0.8742
+[2025-01-20 14:38]  Epoch8 miou: 0.8072 	| best mdice so far: 0.8742
+
+[2025-01-20 14:38]  Epoch9 mdice: 0.8841 	| best mdice so far: 0.8877
+[2025-01-20 14:38]  Epoch9 miou: 0.8014 	| best mdice so far: 0.8877
+
+[2025-01-20 14:38]  Epoch10 mdice: 0.8882 	| best mdice so far: 0.8877
+[2025-01-20 14:38]  Epoch10 miou: 0.8078 	| best mdice so far: 0.8877
+
+[2025-01-20 14:38]  Epoch11 mdice: 0.8950 	| best mdice so far: 0.8882
+[2025-01-20 14:38]  Epoch11 miou: 0.8179 	| best mdice so far: 0.8882
+
+[2025-01-20 14:39]  Epoch12 mdice: 0.8514 	| best mdice so far: 0.8950
+[2025-01-20 14:39]  Epoch12 miou: 0.7535 	| best mdice so far: 0.8950
+
+[2025-01-20 14:39]  Epoch13 mdice: 0.8934 	| best mdice so far: 0.8950
+[2025-01-20 14:39]  Epoch13 miou: 0.8160 	| best mdice so far: 0.8950
+
+[2025-01-20 14:39]  Epoch14 mdice: 0.8831 	| best mdice so far: 0.8950
+[2025-01-20 14:39]  Epoch14 miou: 0.8002 	| best mdice so far: 0.8950
+
+[2025-01-20 14:39]  Epoch15 mdice: 0.8917 	| best mdice so far: 0.8950
+[2025-01-20 14:39]  Epoch15 miou: 0.8123 	| best mdice so far: 0.8950
+
+[2025-01-20 14:39]  Epoch16 mdice: 0.8770 	| best mdice so far: 0.8950
+[2025-01-20 14:39]  Epoch16 miou: 0.7916 	| best mdice so far: 0.8950
+
+[2025-01-20 14:40]  Epoch17 mdice: 0.9074 	| best mdice so far: 0.8950
+[2025-01-20 14:40]  Epoch17 miou: 0.8369 	| best mdice so far: 0.8950
+
+[2025-01-20 14:40]  Epoch18 mdice: 0.8941 	| best mdice so far: 0.9074
+[2025-01-20 14:40]  Epoch18 miou: 0.8168 	| best mdice so far: 0.9074
+
+[2025-01-20 14:40]  Epoch19 mdice: 0.8876 	| best mdice so far: 0.9074
+[2025-01-20 14:40]  Epoch19 miou: 0.8075 	| best mdice so far: 0.9074
+
+[2025-01-20 14:40]  Epoch20 mdice: 0.9006 	| best mdice so far: 0.9074
+[2025-01-20 14:40]  Epoch20 miou: 0.8260 	| best mdice so far: 0.9074
+
+[2025-01-20 14:40]  Epoch21 mdice: 0.9012 	| best mdice so far: 0.9074
+[2025-01-20 14:40]  Epoch21 miou: 0.8276 	| best mdice so far: 0.9074
+
+[2025-01-20 14:41]  Epoch22 mdice: 0.9058 	| best mdice so far: 0.9074
+[2025-01-20 14:41]  Epoch22 miou: 0.8346 	| best mdice so far: 0.9074
+
+[2025-01-20 14:41]  Epoch23 mdice: 0.6793 	| best mdice so far: 0.9074
+[2025-01-20 14:41]  Epoch23 miou: 0.5388 	| best mdice so far: 0.9074
+
+[2025-01-20 14:41]  Epoch24 mdice: 0.8835 	| best mdice so far: 0.9074
+[2025-01-20 14:41]  Epoch24 miou: 0.8014 	| best mdice so far: 0.9074
+
+[2025-01-20 14:41]  Epoch25 mdice: 0.8898 	| best mdice so far: 0.9074
+[2025-01-20 14:41]  Epoch25 miou: 0.8100 	| best mdice so far: 0.9074
+
+[2025-01-20 14:41]  Epoch26 mdice: 0.8937 	| best mdice so far: 0.9074
+[2025-01-20 14:41]  Epoch26 miou: 0.8159 	| best mdice so far: 0.9074
+
+[2025-01-20 14:42]  Epoch27 mdice: 0.8916 	| best mdice so far: 0.9074
+[2025-01-20 14:42]  Epoch27 miou: 0.8124 	| best mdice so far: 0.9074
+
+[2025-01-20 14:42]  Epoch28 mdice: 0.9086 	| best mdice so far: 0.9074
+[2025-01-20 14:42]  Epoch28 miou: 0.8387 	| best mdice so far: 0.9074
+
+[2025-01-20 14:42]  Epoch29 mdice: 0.9152 	| best mdice so far: 0.9086
+[2025-01-20 14:42]  Epoch29 miou: 0.8490 	| best mdice so far: 0.9086
+
+[2025-01-20 14:42]  Epoch30 mdice: 0.9015 	| best mdice so far: 0.9152
+[2025-01-20 14:42]  Epoch30 miou: 0.8276 	| best mdice so far: 0.9152
+
+[2025-01-20 14:42]  Epoch31 mdice: 0.9015 	| best mdice so far: 0.9152
+[2025-01-20 14:42]  Epoch31 miou: 0.8281 	| best mdice so far: 0.9152
+
+[2025-01-20 14:43]  Epoch32 mdice: 0.9103 	| best mdice so far: 0.9152
+[2025-01-20 14:43]  Epoch32 miou: 0.8416 	| best mdice so far: 0.9152
+
+[2025-01-20 14:43]  Epoch33 mdice: 0.9033 	| best mdice so far: 0.9152
+[2025-01-20 14:43]  Epoch33 miou: 0.8307 	| best mdice so far: 0.9152
+
+[2025-01-20 14:43]  Epoch34 mdice: 0.9071 	| best mdice so far: 0.9152
+[2025-01-20 14:43]  Epoch34 miou: 0.8369 	| best mdice so far: 0.9152
+
+[2025-01-20 14:43]  Epoch35 mdice: 0.9030 	| best mdice so far: 0.9152
+[2025-01-20 14:43]  Epoch35 miou: 0.8299 	| best mdice so far: 0.9152
+
+[2025-01-20 14:43]  Epoch36 mdice: 0.8706 	| best mdice so far: 0.9152
+[2025-01-20 14:43]  Epoch36 miou: 0.7837 	| best mdice so far: 0.9152
+
+[2025-01-20 14:44]  Epoch37 mdice: 0.8888 	| best mdice so far: 0.9152
+[2025-01-20 14:44]  Epoch37 miou: 0.8095 	| best mdice so far: 0.9152
+
+[2025-01-20 14:44]  Epoch38 mdice: 0.9094 	| best mdice so far: 0.9152
+[2025-01-20 14:44]  Epoch38 miou: 0.8399 	| best mdice so far: 0.9152
+
+[2025-01-20 14:44]  Epoch39 mdice: 0.9146 	| best mdice so far: 0.9152
+[2025-01-20 14:44]  Epoch39 miou: 0.8480 	| best mdice so far: 0.9152
+
+[2025-01-20 14:44]  Epoch40 mdice: 0.9128 	| best mdice so far: 0.9152
+[2025-01-20 14:44]  Epoch40 miou: 0.8455 	| best mdice so far: 0.9152
+
+[2025-01-20 14:44]  Epoch41 mdice: 0.9115 	| best mdice so far: 0.9152
+[2025-01-20 14:44]  Epoch41 miou: 0.8434 	| best mdice so far: 0.9152
+
+[2025-01-20 14:45]  Epoch42 mdice: 0.9017 	| best mdice so far: 0.9152
+[2025-01-20 14:45]  Epoch42 miou: 0.8284 	| best mdice so far: 0.9152
+
+[2025-01-20 14:45]  Epoch43 mdice: 0.8993 	| best mdice so far: 0.9152
+[2025-01-20 14:45]  Epoch43 miou: 0.8241 	| best mdice so far: 0.9152
+
+[2025-01-20 14:45]  Epoch44 mdice: 0.9077 	| best mdice so far: 0.9152
+[2025-01-20 14:45]  Epoch44 miou: 0.8374 	| best mdice so far: 0.9152
+
+[2025-01-20 14:45]  Epoch45 mdice: 0.9133 	| best mdice so far: 0.9152
+[2025-01-20 14:45]  Epoch45 miou: 0.8458 	| best mdice so far: 0.9152
+
+[2025-01-20 14:45]  Epoch46 mdice: 0.9171 	| best mdice so far: 0.9152
+[2025-01-20 14:45]  Epoch46 miou: 0.8522 	| best mdice so far: 0.9152
+
+[2025-01-20 14:46]  Epoch47 mdice: 0.9141 	| best mdice so far: 0.9171
+[2025-01-20 14:46]  Epoch47 miou: 0.8477 	| best mdice so far: 0.9171
+
+[2025-01-20 14:46]  Epoch48 mdice: 0.9206 	| best mdice so far: 0.9171
+[2025-01-20 14:46]  Epoch48 miou: 0.8581 	| best mdice so far: 0.9171
+
+[2025-01-20 14:46]  Epoch49 mdice: 0.9034 	| best mdice so far: 0.9206
+[2025-01-20 14:46]  Epoch49 miou: 0.8309 	| best mdice so far: 0.9206
+
+[2025-01-20 14:46]  Epoch50 mdice: 0.8975 	| best mdice so far: 0.9206
+[2025-01-20 14:46]  Epoch50 miou: 0.8222 	| best mdice so far: 0.9206
+
+[2025-01-20 14:46]  Epoch51 mdice: 0.9105 	| best mdice so far: 0.9206
+[2025-01-20 14:46]  Epoch51 miou: 0.8417 	| best mdice so far: 0.9206
+
+[2025-01-20 14:47]  Epoch52 mdice: 0.9103 	| best mdice so far: 0.9206
+[2025-01-20 14:47]  Epoch52 miou: 0.8415 	| best mdice so far: 0.9206
+
+[2025-01-20 14:47]  Epoch53 mdice: 0.9111 	| best mdice so far: 0.9206
+[2025-01-20 14:47]  Epoch53 miou: 0.8428 	| best mdice so far: 0.9206
+
+[2025-01-20 14:47]  Epoch54 mdice: 0.9161 	| best mdice so far: 0.9206
+[2025-01-20 14:47]  Epoch54 miou: 0.8505 	| best mdice so far: 0.9206
+
+[2025-01-20 14:47]  Epoch55 mdice: 0.8847 	| best mdice so far: 0.9206
+[2025-01-20 14:47]  Epoch55 miou: 0.8023 	| best mdice so far: 0.9206
+
+[2025-01-20 14:47]  Epoch56 mdice: 0.9192 	| best mdice so far: 0.9206
+[2025-01-20 14:47]  Epoch56 miou: 0.8556 	| best mdice so far: 0.9206
+
+[2025-01-20 14:48]  Epoch57 mdice: 0.9096 	| best mdice so far: 0.9206
+[2025-01-20 14:48]  Epoch57 miou: 0.8405 	| best mdice so far: 0.9206
+
+[2025-01-20 14:48]  Epoch58 mdice: 0.9095 	| best mdice so far: 0.9206
+[2025-01-20 14:48]  Epoch58 miou: 0.8403 	| best mdice so far: 0.9206
+
+[2025-01-20 14:48]  Epoch59 mdice: 0.9163 	| best mdice so far: 0.9206
+[2025-01-20 14:48]  Epoch59 miou: 0.8512 	| best mdice so far: 0.9206
+
+[2025-01-20 14:48]  Epoch60 mdice: 0.9117 	| best mdice so far: 0.9206
+[2025-01-20 14:48]  Epoch60 miou: 0.8438 	| best mdice so far: 0.9206
+
+[2025-01-20 14:48]  Epoch61 mdice: 0.8972 	| best mdice so far: 0.9206
+[2025-01-20 14:48]  Epoch61 miou: 0.8219 	| best mdice so far: 0.9206
+
+[2025-01-20 14:48]  Epoch62 mdice: 0.9114 	| best mdice so far: 0.9206
+[2025-01-20 14:48]  Epoch62 miou: 0.8432 	| best mdice so far: 0.9206
+
+[2025-01-20 14:49]  Epoch63 mdice: 0.9124 	| best mdice so far: 0.9206
+[2025-01-20 14:49]  Epoch63 miou: 0.8446 	| best mdice so far: 0.9206
+
+[2025-01-20 14:49]  Epoch64 mdice: 0.9101 	| best mdice so far: 0.9206
+[2025-01-20 14:49]  Epoch64 miou: 0.8409 	| best mdice so far: 0.9206
+
+[2025-01-20 14:49]  Epoch65 mdice: 0.8998 	| best mdice so far: 0.9206
+[2025-01-20 14:49]  Epoch65 miou: 0.8253 	| best mdice so far: 0.9206
+
+[2025-01-20 14:49]  Epoch66 mdice: 0.9146 	| best mdice so far: 0.9206
+[2025-01-20 14:49]  Epoch66 miou: 0.8482 	| best mdice so far: 0.9206
+
+[2025-01-20 14:49]  Epoch67 mdice: 0.8921 	| best mdice so far: 0.9206
+[2025-01-20 14:49]  Epoch67 miou: 0.8142 	| best mdice so far: 0.9206
+
+[2025-01-20 14:50]  Epoch68 mdice: 0.9209 	| best mdice so far: 0.9206
+[2025-01-20 14:50]  Epoch68 miou: 0.8583 	| best mdice so far: 0.9206
+
+[2025-01-20 14:50]  Epoch69 mdice: 0.9215 	| best mdice so far: 0.9209
+[2025-01-20 14:50]  Epoch69 miou: 0.8593 	| best mdice so far: 0.9209
+
+[2025-01-20 14:50]  Epoch70 mdice: 0.9227 	| best mdice so far: 0.9215
+[2025-01-20 14:50]  Epoch70 miou: 0.8613 	| best mdice so far: 0.9215
+
+[2025-01-20 14:50]  Epoch71 mdice: 0.9029 	| best mdice so far: 0.9227
+[2025-01-20 14:50]  Epoch71 miou: 0.8298 	| best mdice so far: 0.9227
+
+[2025-01-20 14:50]  Epoch72 mdice: 0.9183 	| best mdice so far: 0.9227
+[2025-01-20 14:50]  Epoch72 miou: 0.8542 	| best mdice so far: 0.9227
+
+[2025-01-20 14:51]  Epoch73 mdice: 0.9096 	| best mdice so far: 0.9227
+[2025-01-20 14:51]  Epoch73 miou: 0.8399 	| best mdice so far: 0.9227
+
+[2025-01-20 14:51]  Epoch74 mdice: 0.9208 	| best mdice so far: 0.9227
+[2025-01-20 14:51]  Epoch74 miou: 0.8582 	| best mdice so far: 0.9227
+
+[2025-01-20 14:51]  Epoch75 mdice: 0.9245 	| best mdice so far: 0.9227
+[2025-01-20 14:51]  Epoch75 miou: 0.8642 	| best mdice so far: 0.9227
+
+[2025-01-20 14:51]  Epoch76 mdice: 0.9271 	| best mdice so far: 0.9245
+[2025-01-20 14:51]  Epoch76 miou: 0.8683 	| best mdice so far: 0.9245
+
+[2025-01-20 14:51]  Epoch77 mdice: 0.9244 	| best mdice so far: 0.9271
+[2025-01-20 14:51]  Epoch77 miou: 0.8640 	| best mdice so far: 0.9271
+
+[2025-01-20 14:52]  Epoch78 mdice: 0.9147 	| best mdice so far: 0.9271
+[2025-01-20 14:52]  Epoch78 miou: 0.8484 	| best mdice so far: 0.9271
+
+[2025-01-20 14:52]  Epoch79 mdice: 0.9161 	| best mdice so far: 0.9271
+[2025-01-20 14:52]  Epoch79 miou: 0.8503 	| best mdice so far: 0.9271
+
+[2025-01-20 14:52]  Epoch80 mdice: 0.9008 	| best mdice so far: 0.9271
+[2025-01-20 14:52]  Epoch80 miou: 0.8269 	| best mdice so far: 0.9271
+
+[2025-01-20 14:52]  Epoch81 mdice: 0.9290 	| best mdice so far: 0.9271
+[2025-01-20 14:52]  Epoch81 miou: 0.8714 	| best mdice so far: 0.9271
+
+[2025-01-20 14:52]  Epoch82 mdice: 0.9262 	| best mdice so far: 0.9290
+[2025-01-20 14:52]  Epoch82 miou: 0.8668 	| best mdice so far: 0.9290
+
+[2025-01-20 14:53]  Epoch83 mdice: 0.9183 	| best mdice so far: 0.9290
+[2025-01-20 14:53]  Epoch83 miou: 0.8540 	| best mdice so far: 0.9290
+
+[2025-01-20 14:53]  Epoch84 mdice: 0.8859 	| best mdice so far: 0.9290
+[2025-01-20 14:53]  Epoch84 miou: 0.8053 	| best mdice so far: 0.9290
+
+[2025-01-20 14:53]  Epoch85 mdice: 0.9184 	| best mdice so far: 0.9290
+[2025-01-20 14:53]  Epoch85 miou: 0.8541 	| best mdice so far: 0.9290
+
+[2025-01-20 14:53]  Epoch86 mdice: 0.9326 	| best mdice so far: 0.9290
+[2025-01-20 14:53]  Epoch86 miou: 0.8773 	| best mdice so far: 0.9290
+
+[2025-01-20 14:53]  Epoch87 mdice: 0.9232 	| best mdice so far: 0.9326
+[2025-01-20 14:53]  Epoch87 miou: 0.8620 	| best mdice so far: 0.9326
+
+[2025-01-20 14:54]  Epoch88 mdice: 0.9238 	| best mdice so far: 0.9326
+[2025-01-20 14:54]  Epoch88 miou: 0.8630 	| best mdice so far: 0.9326
+
+[2025-01-20 14:54]  Epoch89 mdice: 0.9186 	| best mdice so far: 0.9326
+[2025-01-20 14:54]  Epoch89 miou: 0.8547 	| best mdice so far: 0.9326
+
+[2025-01-20 14:54]  Epoch90 mdice: 0.9078 	| best mdice so far: 0.9326
+[2025-01-20 14:54]  Epoch90 miou: 0.8374 	| best mdice so far: 0.9326
+
+[2025-01-20 14:54]  Epoch91 mdice: 0.9118 	| best mdice so far: 0.9326
+[2025-01-20 14:54]  Epoch91 miou: 0.8435 	| best mdice so far: 0.9326
+
+[2025-01-20 14:54]  Epoch92 mdice: 0.9151 	| best mdice so far: 0.9326
+[2025-01-20 14:54]  Epoch92 miou: 0.8489 	| best mdice so far: 0.9326
+
+[2025-01-20 14:55]  Epoch93 mdice: 0.9164 	| best mdice so far: 0.9326
+[2025-01-20 14:55]  Epoch93 miou: 0.8512 	| best mdice so far: 0.9326
+
+[2025-01-20 14:55]  Epoch94 mdice: 0.9308 	| best mdice so far: 0.9326
+[2025-01-20 14:55]  Epoch94 miou: 0.8744 	| best mdice so far: 0.9326
+
+[2025-01-20 14:55]  Epoch95 mdice: 0.9259 	| best mdice so far: 0.9326
+[2025-01-20 14:55]  Epoch95 miou: 0.8665 	| best mdice so far: 0.9326
+
+[2025-01-20 14:55]  Epoch96 mdice: 0.9073 	| best mdice so far: 0.9326
+[2025-01-20 14:55]  Epoch96 miou: 0.8372 	| best mdice so far: 0.9326
+
+[2025-01-20 14:55]  Epoch97 mdice: 0.9280 	| best mdice so far: 0.9326
+[2025-01-20 14:55]  Epoch97 miou: 0.8698 	| best mdice so far: 0.9326
+
+[2025-01-20 14:56]  Epoch98 mdice: 0.9223 	| best mdice so far: 0.9326
+[2025-01-20 14:56]  Epoch98 miou: 0.8607 	| best mdice so far: 0.9326
+
+[2025-01-20 14:56]  Epoch99 mdice: 0.9280 	| best mdice so far: 0.9326
+[2025-01-20 14:56]  Epoch99 miou: 0.8698 	| best mdice so far: 0.9326
+
+[2025-01-20 14:56]  Epoch100 mdice: 0.9170 	| best mdice so far: 0.9326
+[2025-01-20 14:56]  Epoch100 miou: 0.8518 	| best mdice so far: 0.9326
+
+[2025-01-20 14:56]  Epoch101 mdice: 0.9057 	| best mdice so far: 0.9326
+[2025-01-20 14:56]  Epoch101 miou: 0.8345 	| best mdice so far: 0.9326
+
+[2025-01-20 14:56]  Epoch102 mdice: 0.9192 	| best mdice so far: 0.9326
+[2025-01-20 14:56]  Epoch102 miou: 0.8555 	| best mdice so far: 0.9326
+
+[2025-01-20 14:57]  Epoch103 mdice: 0.9239 	| best mdice so far: 0.9326
+[2025-01-20 14:57]  Epoch103 miou: 0.8629 	| best mdice so far: 0.9326
+
+[2025-01-20 14:57]  Epoch104 mdice: 0.9198 	| best mdice so far: 0.9326
+[2025-01-20 14:57]  Epoch104 miou: 0.8565 	| best mdice so far: 0.9326
+
+[2025-01-20 14:57]  Epoch105 mdice: 0.9014 	| best mdice so far: 0.9326
+[2025-01-20 14:57]  Epoch105 miou: 0.8270 	| best mdice so far: 0.9326
+
+[2025-01-20 14:57]  Epoch106 mdice: 0.9261 	| best mdice so far: 0.9326
+[2025-01-20 14:57]  Epoch106 miou: 0.8666 	| best mdice so far: 0.9326
+
+[2025-01-20 14:57]  Epoch107 mdice: 0.9195 	| best mdice so far: 0.9326
+[2025-01-20 14:57]  Epoch107 miou: 0.8561 	| best mdice so far: 0.9326
+
+[2025-01-20 14:58]  Epoch108 mdice: 0.9207 	| best mdice so far: 0.9326
+[2025-01-20 14:58]  Epoch108 miou: 0.8580 	| best mdice so far: 0.9326
+
+[2025-01-20 14:58]  Epoch109 mdice: 0.9226 	| best mdice so far: 0.9326
+[2025-01-20 14:58]  Epoch109 miou: 0.8610 	| best mdice so far: 0.9326
+
+[2025-01-20 14:58]  Epoch110 mdice: 0.9233 	| best mdice so far: 0.9326
+[2025-01-20 14:58]  Epoch110 miou: 0.8620 	| best mdice so far: 0.9326
+
+[2025-01-20 14:58]  Epoch111 mdice: 0.9273 	| best mdice so far: 0.9326
+[2025-01-20 14:58]  Epoch111 miou: 0.8687 	| best mdice so far: 0.9326
+
+[2025-01-20 14:58]  Epoch112 mdice: 0.9230 	| best mdice so far: 0.9326
+[2025-01-20 14:58]  Epoch112 miou: 0.8614 	| best mdice so far: 0.9326
+
+[2025-01-20 14:59]  Epoch113 mdice: 0.9200 	| best mdice so far: 0.9326
+[2025-01-20 14:59]  Epoch113 miou: 0.8568 	| best mdice so far: 0.9326
+
+[2025-01-20 14:59]  Epoch114 mdice: 0.9118 	| best mdice so far: 0.9326
+[2025-01-20 14:59]  Epoch114 miou: 0.8441 	| best mdice so far: 0.9326
+
+[2025-01-20 14:59]  Epoch115 mdice: 0.9211 	| best mdice so far: 0.9326
+[2025-01-20 14:59]  Epoch115 miou: 0.8586 	| best mdice so far: 0.9326
+
+[2025-01-20 14:59]  Epoch116 mdice: 0.9169 	| best mdice so far: 0.9326
+[2025-01-20 14:59]  Epoch116 miou: 0.8522 	| best mdice so far: 0.9326
+
+[2025-01-20 14:59]  Epoch117 mdice: 0.9238 	| best mdice so far: 0.9326
+[2025-01-20 14:59]  Epoch117 miou: 0.8631 	| best mdice so far: 0.9326
+
+[2025-01-20 15:00]  Epoch118 mdice: 0.9253 	| best mdice so far: 0.9326
+[2025-01-20 15:00]  Epoch118 miou: 0.8652 	| best mdice so far: 0.9326
+
+[2025-01-20 15:00]  Epoch119 mdice: 0.9217 	| best mdice so far: 0.9326
+[2025-01-20 15:00]  Epoch119 miou: 0.8595 	| best mdice so far: 0.9326
+
+[2025-01-20 15:00]  Epoch120 mdice: 0.9128 	| best mdice so far: 0.9326
+[2025-01-20 15:00]  Epoch120 miou: 0.8452 	| best mdice so far: 0.9326
+
+[2025-01-20 15:00]  Epoch121 mdice: 0.9201 	| best mdice so far: 0.9326
+[2025-01-20 15:00]  Epoch121 miou: 0.8571 	| best mdice so far: 0.9326
+
+[2025-01-20 15:00]  Epoch122 mdice: 0.9222 	| best mdice so far: 0.9326
+[2025-01-20 15:00]  Epoch122 miou: 0.8603 	| best mdice so far: 0.9326
+
+[2025-01-20 15:01]  Epoch123 mdice: 0.9176 	| best mdice so far: 0.9326
+[2025-01-20 15:01]  Epoch123 miou: 0.8531 	| best mdice so far: 0.9326
+
+[2025-01-20 15:01]  Epoch124 mdice: 0.9247 	| best mdice so far: 0.9326
+[2025-01-20 15:01]  Epoch124 miou: 0.8644 	| best mdice so far: 0.9326
+
+[2025-01-20 15:01]  Epoch125 mdice: 0.9273 	| best mdice so far: 0.9326
+[2025-01-20 15:01]  Epoch125 miou: 0.8687 	| best mdice so far: 0.9326
+
+[2025-01-20 15:01]  Epoch126 mdice: 0.9213 	| best mdice so far: 0.9326
+[2025-01-20 15:01]  Epoch126 miou: 0.8592 	| best mdice so far: 0.9326
+
+[2025-01-20 15:01]  Epoch127 mdice: 0.9168 	| best mdice so far: 0.9326
+[2025-01-20 15:01]  Epoch127 miou: 0.8516 	| best mdice so far: 0.9326
+
+[2025-01-20 15:02]  Epoch128 mdice: 0.9186 	| best mdice so far: 0.9326
+[2025-01-20 15:02]  Epoch128 miou: 0.8547 	| best mdice so far: 0.9326
+
+[2025-01-20 15:02]  Epoch129 mdice: 0.9287 	| best mdice so far: 0.9326
+[2025-01-20 15:02]  Epoch129 miou: 0.8708 	| best mdice so far: 0.9326
+
+[2025-01-20 15:02]  Epoch130 mdice: 0.9213 	| best mdice so far: 0.9326
+[2025-01-20 15:02]  Epoch130 miou: 0.8587 	| best mdice so far: 0.9326
+
+[2025-01-20 15:02]  Epoch131 mdice: 0.9172 	| best mdice so far: 0.9326
+[2025-01-20 15:02]  Epoch131 miou: 0.8522 	| best mdice so far: 0.9326
+
+[2025-01-20 15:02]  Epoch132 mdice: 0.9235 	| best mdice so far: 0.9326
+[2025-01-20 15:02]  Epoch132 miou: 0.8626 	| best mdice so far: 0.9326
+
+[2025-01-20 15:03]  Epoch133 mdice: 0.9254 	| best mdice so far: 0.9326
+[2025-01-20 15:03]  Epoch133 miou: 0.8655 	| best mdice so far: 0.9326
+
+[2025-01-20 15:03]  Epoch134 mdice: 0.9234 	| best mdice so far: 0.9326
+[2025-01-20 15:03]  Epoch134 miou: 0.8624 	| best mdice so far: 0.9326
+
+[2025-01-20 15:03]  Epoch135 mdice: 0.9253 	| best mdice so far: 0.9326
+[2025-01-20 15:03]  Epoch135 miou: 0.8655 	| best mdice so far: 0.9326
+
+[2025-01-20 15:03]  Epoch136 mdice: 0.9129 	| best mdice so far: 0.9326
+[2025-01-20 15:03]  Epoch136 miou: 0.8458 	| best mdice so far: 0.9326
+
+[2025-01-20 15:03]  Epoch137 mdice: 0.9205 	| best mdice so far: 0.9326
+[2025-01-20 15:03]  Epoch137 miou: 0.8578 	| best mdice so far: 0.9326
+
+[2025-01-20 15:04]  Epoch138 mdice: 0.9200 	| best mdice so far: 0.9326
+[2025-01-20 15:04]  Epoch138 miou: 0.8569 	| best mdice so far: 0.9326
+
+[2025-01-20 15:04]  Epoch139 mdice: 0.9178 	| best mdice so far: 0.9326
+[2025-01-20 15:04]  Epoch139 miou: 0.8533 	| best mdice so far: 0.9326
+
+[2025-01-20 15:04]  Epoch140 mdice: 0.9349 	| best mdice so far: 0.9326
+[2025-01-20 15:04]  Epoch140 miou: 0.8813 	| best mdice so far: 0.9326
+
+[2025-01-20 15:04]  Epoch141 mdice: 0.9170 	| best mdice so far: 0.9349
+[2025-01-20 15:04]  Epoch141 miou: 0.8520 	| best mdice so far: 0.9349
+
+[2025-01-20 15:04]  Epoch142 mdice: 0.9195 	| best mdice so far: 0.9349
+[2025-01-20 15:04]  Epoch142 miou: 0.8559 	| best mdice so far: 0.9349
+
+[2025-01-20 15:05]  Epoch143 mdice: 0.9292 	| best mdice so far: 0.9349
+[2025-01-20 15:05]  Epoch143 miou: 0.8718 	| best mdice so far: 0.9349
+
+[2025-01-20 15:05]  Epoch144 mdice: 0.9274 	| best mdice so far: 0.9349
+[2025-01-20 15:05]  Epoch144 miou: 0.8688 	| best mdice so far: 0.9349
+
+[2025-01-20 15:05]  Epoch145 mdice: 0.9293 	| best mdice so far: 0.9349
+[2025-01-20 15:05]  Epoch145 miou: 0.8719 	| best mdice so far: 0.9349
+
+[2025-01-20 15:05]  Epoch146 mdice: 0.9272 	| best mdice so far: 0.9349
+[2025-01-20 15:05]  Epoch146 miou: 0.8686 	| best mdice so far: 0.9349
+
+[2025-01-20 15:05]  Epoch147 mdice: 0.9298 	| best mdice so far: 0.9349
+[2025-01-20 15:05]  Epoch147 miou: 0.8728 	| best mdice so far: 0.9349
+
+[2025-01-20 15:06]  Epoch148 mdice: 0.9311 	| best mdice so far: 0.9349
+[2025-01-20 15:06]  Epoch148 miou: 0.8748 	| best mdice so far: 0.9349
+
+[2025-01-20 15:06]  Epoch149 mdice: 0.9263 	| best mdice so far: 0.9349
+[2025-01-20 15:06]  Epoch149 miou: 0.8671 	| best mdice so far: 0.9349
+
+[2025-01-20 15:06]  Epoch150 mdice: 0.9266 	| best mdice so far: 0.9349
+[2025-01-20 15:06]  Epoch150 miou: 0.8675 	| best mdice so far: 0.9349
+
+[2025-01-20 15:06]  Epoch151 mdice: 0.9275 	| best mdice so far: 0.9349
+[2025-01-20 15:06]  Epoch151 miou: 0.8691 	| best mdice so far: 0.9349
+
+[2025-01-20 15:06]  Epoch152 mdice: 0.9247 	| best mdice so far: 0.9349
+[2025-01-20 15:06]  Epoch152 miou: 0.8644 	| best mdice so far: 0.9349
+
+[2025-01-20 15:07]  Epoch153 mdice: 0.9274 	| best mdice so far: 0.9349
+[2025-01-20 15:07]  Epoch153 miou: 0.8688 	| best mdice so far: 0.9349
+
+[2025-01-20 15:07]  Epoch154 mdice: 0.9305 	| best mdice so far: 0.9349
+[2025-01-20 15:07]  Epoch154 miou: 0.8739 	| best mdice so far: 0.9349
+
+[2025-01-20 15:07]  Epoch155 mdice: 0.9322 	| best mdice so far: 0.9349
+[2025-01-20 15:07]  Epoch155 miou: 0.8768 	| best mdice so far: 0.9349
+
+[2025-01-20 15:07]  Epoch156 mdice: 0.9206 	| best mdice so far: 0.9349
+[2025-01-20 15:07]  Epoch156 miou: 0.8579 	| best mdice so far: 0.9349
+
+[2025-01-20 15:07]  Epoch157 mdice: 0.9324 	| best mdice so far: 0.9349
+[2025-01-20 15:07]  Epoch157 miou: 0.8771 	| best mdice so far: 0.9349
+
+[2025-01-20 15:08]  Epoch158 mdice: 0.9227 	| best mdice so far: 0.9349
+[2025-01-20 15:08]  Epoch158 miou: 0.8611 	| best mdice so far: 0.9349
+
+[2025-01-20 15:08]  Epoch159 mdice: 0.9214 	| best mdice so far: 0.9349
+[2025-01-20 15:08]  Epoch159 miou: 0.8592 	| best mdice so far: 0.9349
+
+[2025-01-20 15:08]  Epoch160 mdice: 0.9226 	| best mdice so far: 0.9349
+[2025-01-20 15:08]  Epoch160 miou: 0.8611 	| best mdice so far: 0.9349
+
+[2025-01-20 15:08]  Epoch161 mdice: 0.9263 	| best mdice so far: 0.9349
+[2025-01-20 15:08]  Epoch161 miou: 0.8669 	| best mdice so far: 0.9349
+
+[2025-01-20 15:08]  Epoch162 mdice: 0.9168 	| best mdice so far: 0.9349
+[2025-01-20 15:08]  Epoch162 miou: 0.8516 	| best mdice so far: 0.9349
+
+[2025-01-20 15:09]  Epoch163 mdice: 0.9366 	| best mdice so far: 0.9349
+[2025-01-20 15:09]  Epoch163 miou: 0.8841 	| best mdice so far: 0.9349
+
+[2025-01-20 15:09]  Epoch164 mdice: 0.9339 	| best mdice so far: 0.9366
+[2025-01-20 15:09]  Epoch164 miou: 0.8796 	| best mdice so far: 0.9366
+
+[2025-01-20 15:09]  Epoch165 mdice: 0.9242 	| best mdice so far: 0.9366
+[2025-01-20 15:09]  Epoch165 miou: 0.8636 	| best mdice so far: 0.9366
+
+[2025-01-20 15:09]  Epoch166 mdice: 0.9377 	| best mdice so far: 0.9366
+[2025-01-20 15:09]  Epoch166 miou: 0.8858 	| best mdice so far: 0.9366
+
+[2025-01-20 15:09]  Epoch167 mdice: 0.9365 	| best mdice so far: 0.9377
+[2025-01-20 15:09]  Epoch167 miou: 0.8838 	| best mdice so far: 0.9377
+
+[2025-01-20 15:10]  Epoch168 mdice: 0.9201 	| best mdice so far: 0.9377
+[2025-01-20 15:10]  Epoch168 miou: 0.8569 	| best mdice so far: 0.9377
+
+[2025-01-20 15:10]  Epoch169 mdice: 0.9340 	| best mdice so far: 0.9377
+[2025-01-20 15:10]  Epoch169 miou: 0.8797 	| best mdice so far: 0.9377
+
+[2025-01-20 15:10]  Epoch170 mdice: 0.9245 	| best mdice so far: 0.9377
+[2025-01-20 15:10]  Epoch170 miou: 0.8642 	| best mdice so far: 0.9377
+
+[2025-01-20 15:10]  Epoch171 mdice: 0.9202 	| best mdice so far: 0.9377
+[2025-01-20 15:10]  Epoch171 miou: 0.8573 	| best mdice so far: 0.9377
+
+[2025-01-20 15:10]  Epoch172 mdice: 0.9181 	| best mdice so far: 0.9377
+[2025-01-20 15:10]  Epoch172 miou: 0.8538 	| best mdice so far: 0.9377
+
+[2025-01-20 15:11]  Epoch173 mdice: 0.9295 	| best mdice so far: 0.9377
+[2025-01-20 15:11]  Epoch173 miou: 0.8721 	| best mdice so far: 0.9377
+
+[2025-01-20 15:11]  Epoch174 mdice: 0.9345 	| best mdice so far: 0.9377
+[2025-01-20 15:11]  Epoch174 miou: 0.8806 	| best mdice so far: 0.9377
+
+[2025-01-20 15:11]  Epoch175 mdice: 0.9304 	| best mdice so far: 0.9377
+[2025-01-20 15:11]  Epoch175 miou: 0.8737 	| best mdice so far: 0.9377
+
+[2025-01-20 15:11]  Epoch176 mdice: 0.9280 	| best mdice so far: 0.9377
+[2025-01-20 15:11]  Epoch176 miou: 0.8697 	| best mdice so far: 0.9377
+
+[2025-01-20 15:11]  Epoch177 mdice: 0.9293 	| best mdice so far: 0.9377
+[2025-01-20 15:11]  Epoch177 miou: 0.8720 	| best mdice so far: 0.9377
+
+[2025-01-20 15:12]  Epoch178 mdice: 0.9246 	| best mdice so far: 0.9377
+[2025-01-20 15:12]  Epoch178 miou: 0.8644 	| best mdice so far: 0.9377
+
+[2025-01-20 15:12]  Epoch179 mdice: 0.9281 	| best mdice so far: 0.9377
+[2025-01-20 15:12]  Epoch179 miou: 0.8700 	| best mdice so far: 0.9377
+
+[2025-01-20 15:12]  Epoch180 mdice: 0.9177 	| best mdice so far: 0.9377
+[2025-01-20 15:12]  Epoch180 miou: 0.8530 	| best mdice so far: 0.9377
+
+[2025-01-20 15:12]  Epoch181 mdice: 0.9281 	| best mdice so far: 0.9377
+[2025-01-20 15:12]  Epoch181 miou: 0.8701 	| best mdice so far: 0.9377
+
+[2025-01-20 15:12]  Epoch182 mdice: 0.9194 	| best mdice so far: 0.9377
+[2025-01-20 15:12]  Epoch182 miou: 0.8560 	| best mdice so far: 0.9377
+
+[2025-01-20 15:13]  Epoch183 mdice: 0.9202 	| best mdice so far: 0.9377
+[2025-01-20 15:13]  Epoch183 miou: 0.8574 	| best mdice so far: 0.9377
+
+[2025-01-20 15:13]  Epoch184 mdice: 0.9264 	| best mdice so far: 0.9377
+[2025-01-20 15:13]  Epoch184 miou: 0.8671 	| best mdice so far: 0.9377
+
+[2025-01-20 15:13]  Epoch185 mdice: 0.9296 	| best mdice so far: 0.9377
+[2025-01-20 15:13]  Epoch185 miou: 0.8723 	| best mdice so far: 0.9377
+
+[2025-01-20 15:13]  Epoch186 mdice: 0.9250 	| best mdice so far: 0.9377
+[2025-01-20 15:13]  Epoch186 miou: 0.8649 	| best mdice so far: 0.9377
+
+[2025-01-20 15:13]  Epoch187 mdice: 0.9167 	| best mdice so far: 0.9377
+[2025-01-20 15:13]  Epoch187 miou: 0.8517 	| best mdice so far: 0.9377
+
+[2025-01-20 15:14]  Epoch188 mdice: 0.9238 	| best mdice so far: 0.9377
+[2025-01-20 15:14]  Epoch188 miou: 0.8629 	| best mdice so far: 0.9377
+
+[2025-01-20 15:14]  Epoch189 mdice: 0.9154 	| best mdice so far: 0.9377
+[2025-01-20 15:14]  Epoch189 miou: 0.8494 	| best mdice so far: 0.9377
+
+[2025-01-20 15:14]  Epoch190 mdice: 0.9224 	| best mdice so far: 0.9377
+[2025-01-20 15:14]  Epoch190 miou: 0.8608 	| best mdice so far: 0.9377
+
+[2025-01-20 15:14]  Epoch191 mdice: 0.9226 	| best mdice so far: 0.9377
+[2025-01-20 15:14]  Epoch191 miou: 0.8609 	| best mdice so far: 0.9377
+
+[2025-01-20 15:14]  Epoch192 mdice: 0.9219 	| best mdice so far: 0.9377
+[2025-01-20 15:14]  Epoch192 miou: 0.8600 	| best mdice so far: 0.9377
+
+[2025-01-20 15:15]  Epoch193 mdice: 0.9229 	| best mdice so far: 0.9377
+[2025-01-20 15:15]  Epoch193 miou: 0.8615 	| best mdice so far: 0.9377
+
+[2025-01-20 15:15]  Epoch194 mdice: 0.9135 	| best mdice so far: 0.9377
+[2025-01-20 15:15]  Epoch194 miou: 0.8466 	| best mdice so far: 0.9377
+
+[2025-01-20 15:15]  Epoch195 mdice: 0.9161 	| best mdice so far: 0.9377
+[2025-01-20 15:15]  Epoch195 miou: 0.8505 	| best mdice so far: 0.9377
+
+[2025-01-20 15:15]  Epoch196 mdice: 0.9271 	| best mdice so far: 0.9377
+[2025-01-20 15:15]  Epoch196 miou: 0.8683 	| best mdice so far: 0.9377
+
+[2025-01-20 15:15]  Epoch197 mdice: 0.9238 	| best mdice so far: 0.9377
+[2025-01-20 15:15]  Epoch197 miou: 0.8630 	| best mdice so far: 0.9377
+
+[2025-01-20 15:16]  Epoch198 mdice: 0.9317 	| best mdice so far: 0.9377
+[2025-01-20 15:16]  Epoch198 miou: 0.8760 	| best mdice so far: 0.9377
+
+[2025-01-20 15:16]  Epoch199 mdice: 0.9290 	| best mdice so far: 0.9377
+[2025-01-20 15:16]  Epoch199 miou: 0.8716 	| best mdice so far: 0.9377
+
+[2025-01-20 15:16]  Epoch200 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:16]  Epoch200 miou: 0.8716 	| best mdice so far: 0.9377
+
+[2025-01-20 15:16]  Epoch201 mdice: 0.9262 	| best mdice so far: 0.9377
+[2025-01-20 15:16]  Epoch201 miou: 0.8669 	| best mdice so far: 0.9377
+
+[2025-01-20 15:16]  Epoch202 mdice: 0.9262 	| best mdice so far: 0.9377
+[2025-01-20 15:16]  Epoch202 miou: 0.8669 	| best mdice so far: 0.9377
+
+[2025-01-20 15:17]  Epoch203 mdice: 0.9168 	| best mdice so far: 0.9377
+[2025-01-20 15:17]  Epoch203 miou: 0.8520 	| best mdice so far: 0.9377
+
+[2025-01-20 15:17]  Epoch204 mdice: 0.9200 	| best mdice so far: 0.9377
+[2025-01-20 15:17]  Epoch204 miou: 0.8570 	| best mdice so far: 0.9377
+
+[2025-01-20 15:17]  Epoch205 mdice: 0.9264 	| best mdice so far: 0.9377
+[2025-01-20 15:17]  Epoch205 miou: 0.8673 	| best mdice so far: 0.9377
+
+[2025-01-20 15:17]  Epoch206 mdice: 0.9265 	| best mdice so far: 0.9377
+[2025-01-20 15:17]  Epoch206 miou: 0.8673 	| best mdice so far: 0.9377
+
+[2025-01-20 15:17]  Epoch207 mdice: 0.9254 	| best mdice so far: 0.9377
+[2025-01-20 15:17]  Epoch207 miou: 0.8657 	| best mdice so far: 0.9377
+
+[2025-01-20 15:18]  Epoch208 mdice: 0.9205 	| best mdice so far: 0.9377
+[2025-01-20 15:18]  Epoch208 miou: 0.8576 	| best mdice so far: 0.9377
+
+[2025-01-20 15:18]  Epoch209 mdice: 0.9182 	| best mdice so far: 0.9377
+[2025-01-20 15:18]  Epoch209 miou: 0.8539 	| best mdice so far: 0.9377
+
+[2025-01-20 15:18]  Epoch210 mdice: 0.9179 	| best mdice so far: 0.9377
+[2025-01-20 15:18]  Epoch210 miou: 0.8534 	| best mdice so far: 0.9377
+
+[2025-01-20 15:18]  Epoch211 mdice: 0.9264 	| best mdice so far: 0.9377
+[2025-01-20 15:18]  Epoch211 miou: 0.8672 	| best mdice so far: 0.9377
+
+[2025-01-20 15:18]  Epoch212 mdice: 0.9126 	| best mdice so far: 0.9377
+[2025-01-20 15:18]  Epoch212 miou: 0.8451 	| best mdice so far: 0.9377
+
+[2025-01-20 15:19]  Epoch213 mdice: 0.9266 	| best mdice so far: 0.9377
+[2025-01-20 15:19]  Epoch213 miou: 0.8675 	| best mdice so far: 0.9377
+
+[2025-01-20 15:19]  Epoch214 mdice: 0.9261 	| best mdice so far: 0.9377
+[2025-01-20 15:19]  Epoch214 miou: 0.8668 	| best mdice so far: 0.9377
+
+[2025-01-20 15:19]  Epoch215 mdice: 0.9203 	| best mdice so far: 0.9377
+[2025-01-20 15:19]  Epoch215 miou: 0.8573 	| best mdice so far: 0.9377
+
+[2025-01-20 15:19]  Epoch216 mdice: 0.9282 	| best mdice so far: 0.9377
+[2025-01-20 15:19]  Epoch216 miou: 0.8701 	| best mdice so far: 0.9377
+
+[2025-01-20 15:19]  Epoch217 mdice: 0.9254 	| best mdice so far: 0.9377
+[2025-01-20 15:19]  Epoch217 miou: 0.8655 	| best mdice so far: 0.9377
+
+[2025-01-20 15:20]  Epoch218 mdice: 0.9277 	| best mdice so far: 0.9377
+[2025-01-20 15:20]  Epoch218 miou: 0.8693 	| best mdice so far: 0.9377
+
+[2025-01-20 15:20]  Epoch219 mdice: 0.9267 	| best mdice so far: 0.9377
+[2025-01-20 15:20]  Epoch219 miou: 0.8678 	| best mdice so far: 0.9377
+
+[2025-01-20 15:20]  Epoch220 mdice: 0.9283 	| best mdice so far: 0.9377
+[2025-01-20 15:20]  Epoch220 miou: 0.8702 	| best mdice so far: 0.9377
+
+[2025-01-20 15:20]  Epoch221 mdice: 0.9319 	| best mdice so far: 0.9377
+[2025-01-20 15:20]  Epoch221 miou: 0.8762 	| best mdice so far: 0.9377
+
+[2025-01-20 15:20]  Epoch222 mdice: 0.9311 	| best mdice so far: 0.9377
+[2025-01-20 15:20]  Epoch222 miou: 0.8748 	| best mdice so far: 0.9377
+
+[2025-01-20 15:21]  Epoch223 mdice: 0.9243 	| best mdice so far: 0.9377
+[2025-01-20 15:21]  Epoch223 miou: 0.8639 	| best mdice so far: 0.9377
+
+[2025-01-20 15:21]  Epoch224 mdice: 0.9214 	| best mdice so far: 0.9377
+[2025-01-20 15:21]  Epoch224 miou: 0.8590 	| best mdice so far: 0.9377
+
+[2025-01-20 15:21]  Epoch225 mdice: 0.9209 	| best mdice so far: 0.9377
+[2025-01-20 15:21]  Epoch225 miou: 0.8582 	| best mdice so far: 0.9377
+
+[2025-01-20 15:21]  Epoch226 mdice: 0.9199 	| best mdice so far: 0.9377
+[2025-01-20 15:21]  Epoch226 miou: 0.8568 	| best mdice so far: 0.9377
+
+[2025-01-20 15:21]  Epoch227 mdice: 0.9277 	| best mdice so far: 0.9377
+[2025-01-20 15:21]  Epoch227 miou: 0.8694 	| best mdice so far: 0.9377
+
+[2025-01-20 15:22]  Epoch228 mdice: 0.9313 	| best mdice so far: 0.9377
+[2025-01-20 15:22]  Epoch228 miou: 0.8751 	| best mdice so far: 0.9377
+
+[2025-01-20 15:22]  Epoch229 mdice: 0.9298 	| best mdice so far: 0.9377
+[2025-01-20 15:22]  Epoch229 miou: 0.8727 	| best mdice so far: 0.9377
+
+[2025-01-20 15:22]  Epoch230 mdice: 0.9292 	| best mdice so far: 0.9377
+[2025-01-20 15:22]  Epoch230 miou: 0.8719 	| best mdice so far: 0.9377
+
+[2025-01-20 15:22]  Epoch231 mdice: 0.9321 	| best mdice so far: 0.9377
+[2025-01-20 15:22]  Epoch231 miou: 0.8766 	| best mdice so far: 0.9377
+
+[2025-01-20 15:22]  Epoch232 mdice: 0.9195 	| best mdice so far: 0.9377
+[2025-01-20 15:22]  Epoch232 miou: 0.8561 	| best mdice so far: 0.9377
+
+[2025-01-20 15:23]  Epoch233 mdice: 0.9166 	| best mdice so far: 0.9377
+[2025-01-20 15:23]  Epoch233 miou: 0.8515 	| best mdice so far: 0.9377
+
+[2025-01-20 15:23]  Epoch234 mdice: 0.9272 	| best mdice so far: 0.9377
+[2025-01-20 15:23]  Epoch234 miou: 0.8686 	| best mdice so far: 0.9377
+
+[2025-01-20 15:23]  Epoch235 mdice: 0.9276 	| best mdice so far: 0.9377
+[2025-01-20 15:23]  Epoch235 miou: 0.8692 	| best mdice so far: 0.9377
+
+[2025-01-20 15:23]  Epoch236 mdice: 0.9213 	| best mdice so far: 0.9377
+[2025-01-20 15:23]  Epoch236 miou: 0.8588 	| best mdice so far: 0.9377
+
+[2025-01-20 15:23]  Epoch237 mdice: 0.9289 	| best mdice so far: 0.9377
+[2025-01-20 15:23]  Epoch237 miou: 0.8712 	| best mdice so far: 0.9377
+
+[2025-01-20 15:24]  Epoch238 mdice: 0.9235 	| best mdice so far: 0.9377
+[2025-01-20 15:24]  Epoch238 miou: 0.8626 	| best mdice so far: 0.9377
+
+[2025-01-20 15:24]  Epoch239 mdice: 0.9257 	| best mdice so far: 0.9377
+[2025-01-20 15:24]  Epoch239 miou: 0.8659 	| best mdice so far: 0.9377
+
+[2025-01-20 15:24]  Epoch240 mdice: 0.9349 	| best mdice so far: 0.9377
+[2025-01-20 15:24]  Epoch240 miou: 0.8812 	| best mdice so far: 0.9377
+
+[2025-01-20 15:24]  Epoch241 mdice: 0.9271 	| best mdice so far: 0.9377
+[2025-01-20 15:24]  Epoch241 miou: 0.8683 	| best mdice so far: 0.9377
+
+[2025-01-20 15:24]  Epoch242 mdice: 0.9314 	| best mdice so far: 0.9377
+[2025-01-20 15:24]  Epoch242 miou: 0.8754 	| best mdice so far: 0.9377
+
+[2025-01-20 15:25]  Epoch243 mdice: 0.9256 	| best mdice so far: 0.9377
+[2025-01-20 15:25]  Epoch243 miou: 0.8658 	| best mdice so far: 0.9377
+
+[2025-01-20 15:25]  Epoch244 mdice: 0.9288 	| best mdice so far: 0.9377
+[2025-01-20 15:25]  Epoch244 miou: 0.8711 	| best mdice so far: 0.9377
+
+[2025-01-20 15:25]  Epoch245 mdice: 0.9325 	| best mdice so far: 0.9377
+[2025-01-20 15:25]  Epoch245 miou: 0.8773 	| best mdice so far: 0.9377
+
+[2025-01-20 15:25]  Epoch246 mdice: 0.9308 	| best mdice so far: 0.9377
+[2025-01-20 15:25]  Epoch246 miou: 0.8744 	| best mdice so far: 0.9377
+
+[2025-01-20 15:25]  Epoch247 mdice: 0.9276 	| best mdice so far: 0.9377
+[2025-01-20 15:25]  Epoch247 miou: 0.8692 	| best mdice so far: 0.9377
+
+[2025-01-20 15:26]  Epoch248 mdice: 0.9334 	| best mdice so far: 0.9377
+[2025-01-20 15:26]  Epoch248 miou: 0.8787 	| best mdice so far: 0.9377
+
+[2025-01-20 15:26]  Epoch249 mdice: 0.9310 	| best mdice so far: 0.9377
+[2025-01-20 15:26]  Epoch249 miou: 0.8748 	| best mdice so far: 0.9377
+
+[2025-01-20 15:26]  Epoch250 mdice: 0.9336 	| best mdice so far: 0.9377
+[2025-01-20 15:26]  Epoch250 miou: 0.8791 	| best mdice so far: 0.9377
+
+[2025-01-20 15:26]  Epoch251 mdice: 0.9311 	| best mdice so far: 0.9377
+[2025-01-20 15:26]  Epoch251 miou: 0.8748 	| best mdice so far: 0.9377
+
+[2025-01-20 15:26]  Epoch252 mdice: 0.9314 	| best mdice so far: 0.9377
+[2025-01-20 15:26]  Epoch252 miou: 0.8755 	| best mdice so far: 0.9377
+
+[2025-01-20 15:27]  Epoch253 mdice: 0.9306 	| best mdice so far: 0.9377
+[2025-01-20 15:27]  Epoch253 miou: 0.8741 	| best mdice so far: 0.9377
+
+[2025-01-20 15:27]  Epoch254 mdice: 0.9210 	| best mdice so far: 0.9377
+[2025-01-20 15:27]  Epoch254 miou: 0.8584 	| best mdice so far: 0.9377
+
+[2025-01-20 15:27]  Epoch255 mdice: 0.9281 	| best mdice so far: 0.9377
+[2025-01-20 15:27]  Epoch255 miou: 0.8699 	| best mdice so far: 0.9377
+
+[2025-01-20 15:27]  Epoch256 mdice: 0.9259 	| best mdice so far: 0.9377
+[2025-01-20 15:27]  Epoch256 miou: 0.8664 	| best mdice so far: 0.9377
+
+[2025-01-20 15:27]  Epoch257 mdice: 0.9311 	| best mdice so far: 0.9377
+[2025-01-20 15:27]  Epoch257 miou: 0.8749 	| best mdice so far: 0.9377
+
+[2025-01-20 15:28]  Epoch258 mdice: 0.9216 	| best mdice so far: 0.9377
+[2025-01-20 15:28]  Epoch258 miou: 0.8593 	| best mdice so far: 0.9377
+
+[2025-01-20 15:28]  Epoch259 mdice: 0.9224 	| best mdice so far: 0.9377
+[2025-01-20 15:28]  Epoch259 miou: 0.8607 	| best mdice so far: 0.9377
+
+[2025-01-20 15:28]  Epoch260 mdice: 0.9235 	| best mdice so far: 0.9377
+[2025-01-20 15:28]  Epoch260 miou: 0.8625 	| best mdice so far: 0.9377
+
+[2025-01-20 15:28]  Epoch261 mdice: 0.9352 	| best mdice so far: 0.9377
+[2025-01-20 15:28]  Epoch261 miou: 0.8817 	| best mdice so far: 0.9377
+
+[2025-01-20 15:28]  Epoch262 mdice: 0.9325 	| best mdice so far: 0.9377
+[2025-01-20 15:28]  Epoch262 miou: 0.8772 	| best mdice so far: 0.9377
+
+[2025-01-20 15:29]  Epoch263 mdice: 0.9299 	| best mdice so far: 0.9377
+[2025-01-20 15:29]  Epoch263 miou: 0.8729 	| best mdice so far: 0.9377
+
+[2025-01-20 15:29]  Epoch264 mdice: 0.9290 	| best mdice so far: 0.9377
+[2025-01-20 15:29]  Epoch264 miou: 0.8715 	| best mdice so far: 0.9377
+
+[2025-01-20 15:29]  Epoch265 mdice: 0.9308 	| best mdice so far: 0.9377
+[2025-01-20 15:29]  Epoch265 miou: 0.8744 	| best mdice so far: 0.9377
+
+[2025-01-20 15:29]  Epoch266 mdice: 0.9298 	| best mdice so far: 0.9377
+[2025-01-20 15:29]  Epoch266 miou: 0.8729 	| best mdice so far: 0.9377
+
+[2025-01-20 15:29]  Epoch267 mdice: 0.9289 	| best mdice so far: 0.9377
+[2025-01-20 15:29]  Epoch267 miou: 0.8714 	| best mdice so far: 0.9377
+
+[2025-01-20 15:30]  Epoch268 mdice: 0.9276 	| best mdice so far: 0.9377
+[2025-01-20 15:30]  Epoch268 miou: 0.8692 	| best mdice so far: 0.9377
+
+[2025-01-20 15:30]  Epoch269 mdice: 0.9216 	| best mdice so far: 0.9377
+[2025-01-20 15:30]  Epoch269 miou: 0.8594 	| best mdice so far: 0.9377
+
+[2025-01-20 15:30]  Epoch270 mdice: 0.9284 	| best mdice so far: 0.9377
+[2025-01-20 15:30]  Epoch270 miou: 0.8704 	| best mdice so far: 0.9377
+
+[2025-01-20 15:30]  Epoch271 mdice: 0.9314 	| best mdice so far: 0.9377
+[2025-01-20 15:30]  Epoch271 miou: 0.8754 	| best mdice so far: 0.9377
+
+[2025-01-20 15:30]  Epoch272 mdice: 0.9268 	| best mdice so far: 0.9377
+[2025-01-20 15:30]  Epoch272 miou: 0.8679 	| best mdice so far: 0.9377
+
+[2025-01-20 15:31]  Epoch273 mdice: 0.9289 	| best mdice so far: 0.9377
+[2025-01-20 15:31]  Epoch273 miou: 0.8713 	| best mdice so far: 0.9377
+
+[2025-01-20 15:31]  Epoch274 mdice: 0.9288 	| best mdice so far: 0.9377
+[2025-01-20 15:31]  Epoch274 miou: 0.8712 	| best mdice so far: 0.9377
+
+[2025-01-20 15:31]  Epoch275 mdice: 0.9306 	| best mdice so far: 0.9377
+[2025-01-20 15:31]  Epoch275 miou: 0.8741 	| best mdice so far: 0.9377
+
+[2025-01-20 15:31]  Epoch276 mdice: 0.9284 	| best mdice so far: 0.9377
+[2025-01-20 15:31]  Epoch276 miou: 0.8705 	| best mdice so far: 0.9377
+
+[2025-01-20 15:31]  Epoch277 mdice: 0.9289 	| best mdice so far: 0.9377
+[2025-01-20 15:31]  Epoch277 miou: 0.8713 	| best mdice so far: 0.9377
+
+[2025-01-20 15:32]  Epoch278 mdice: 0.9298 	| best mdice so far: 0.9377
+[2025-01-20 15:32]  Epoch278 miou: 0.8727 	| best mdice so far: 0.9377
+
+[2025-01-20 15:32]  Epoch279 mdice: 0.9264 	| best mdice so far: 0.9377
+[2025-01-20 15:32]  Epoch279 miou: 0.8672 	| best mdice so far: 0.9377
+
+[2025-01-20 15:32]  Epoch280 mdice: 0.9208 	| best mdice so far: 0.9377
+[2025-01-20 15:32]  Epoch280 miou: 0.8580 	| best mdice so far: 0.9377
+
+[2025-01-20 15:32]  Epoch281 mdice: 0.9218 	| best mdice so far: 0.9377
+[2025-01-20 15:32]  Epoch281 miou: 0.8598 	| best mdice so far: 0.9377
+
+[2025-01-20 15:32]  Epoch282 mdice: 0.9235 	| best mdice so far: 0.9377
+[2025-01-20 15:32]  Epoch282 miou: 0.8625 	| best mdice so far: 0.9377
+
+[2025-01-20 15:33]  Epoch283 mdice: 0.9264 	| best mdice so far: 0.9377
+[2025-01-20 15:33]  Epoch283 miou: 0.8672 	| best mdice so far: 0.9377
+
+[2025-01-20 15:33]  Epoch284 mdice: 0.9264 	| best mdice so far: 0.9377
+[2025-01-20 15:33]  Epoch284 miou: 0.8673 	| best mdice so far: 0.9377
+
+[2025-01-20 15:33]  Epoch285 mdice: 0.9285 	| best mdice so far: 0.9377
+[2025-01-20 15:33]  Epoch285 miou: 0.8707 	| best mdice so far: 0.9377
+
+[2025-01-20 15:33]  Epoch286 mdice: 0.9235 	| best mdice so far: 0.9377
+[2025-01-20 15:33]  Epoch286 miou: 0.8626 	| best mdice so far: 0.9377
+
+[2025-01-20 15:33]  Epoch287 mdice: 0.9273 	| best mdice so far: 0.9377
+[2025-01-20 15:33]  Epoch287 miou: 0.8688 	| best mdice so far: 0.9377
+
+[2025-01-20 15:34]  Epoch288 mdice: 0.9276 	| best mdice so far: 0.9377
+[2025-01-20 15:34]  Epoch288 miou: 0.8693 	| best mdice so far: 0.9377
+
+[2025-01-20 15:34]  Epoch289 mdice: 0.9312 	| best mdice so far: 0.9377
+[2025-01-20 15:34]  Epoch289 miou: 0.8751 	| best mdice so far: 0.9377
+
+[2025-01-20 15:34]  Epoch290 mdice: 0.9284 	| best mdice so far: 0.9377
+[2025-01-20 15:34]  Epoch290 miou: 0.8705 	| best mdice so far: 0.9377
+
+[2025-01-20 15:34]  Epoch291 mdice: 0.9306 	| best mdice so far: 0.9377
+[2025-01-20 15:34]  Epoch291 miou: 0.8741 	| best mdice so far: 0.9377
+
+[2025-01-20 15:34]  Epoch292 mdice: 0.9289 	| best mdice so far: 0.9377
+[2025-01-20 15:34]  Epoch292 miou: 0.8713 	| best mdice so far: 0.9377
+
+[2025-01-20 15:35]  Epoch293 mdice: 0.9299 	| best mdice so far: 0.9377
+[2025-01-20 15:35]  Epoch293 miou: 0.8729 	| best mdice so far: 0.9377
+
+[2025-01-20 15:35]  Epoch294 mdice: 0.9285 	| best mdice so far: 0.9377
+[2025-01-20 15:35]  Epoch294 miou: 0.8706 	| best mdice so far: 0.9377
+
+[2025-01-20 15:35]  Epoch295 mdice: 0.9310 	| best mdice so far: 0.9377
+[2025-01-20 15:35]  Epoch295 miou: 0.8748 	| best mdice so far: 0.9377
+
+[2025-01-20 15:35]  Epoch296 mdice: 0.9306 	| best mdice so far: 0.9377
+[2025-01-20 15:35]  Epoch296 miou: 0.8742 	| best mdice so far: 0.9377
+
+[2025-01-20 15:35]  Epoch297 mdice: 0.9230 	| best mdice so far: 0.9377
+[2025-01-20 15:35]  Epoch297 miou: 0.8616 	| best mdice so far: 0.9377
+
+[2025-01-20 15:36]  Epoch298 mdice: 0.9346 	| best mdice so far: 0.9377
+[2025-01-20 15:36]  Epoch298 miou: 0.8808 	| best mdice so far: 0.9377
+
+[2025-01-20 15:36]  Epoch299 mdice: 0.9319 	| best mdice so far: 0.9377
+[2025-01-20 15:36]  Epoch299 miou: 0.8764 	| best mdice so far: 0.9377
+
+[2025-01-20 15:36]  Epoch300 mdice: 0.9325 	| best mdice so far: 0.9377
+[2025-01-20 15:36]  Epoch300 miou: 0.8772 	| best mdice so far: 0.9377
+
+[2025-01-20 15:36]  Epoch301 mdice: 0.9233 	| best mdice so far: 0.9377
+[2025-01-20 15:36]  Epoch301 miou: 0.8621 	| best mdice so far: 0.9377
+
+[2025-01-20 15:37]  Epoch302 mdice: 0.9290 	| best mdice so far: 0.9377
+[2025-01-20 15:37]  Epoch302 miou: 0.8716 	| best mdice so far: 0.9377
+
+[2025-01-20 15:37]  Epoch303 mdice: 0.9321 	| best mdice so far: 0.9377
+[2025-01-20 15:37]  Epoch303 miou: 0.8765 	| best mdice so far: 0.9377
+
+[2025-01-20 15:37]  Epoch304 mdice: 0.9299 	| best mdice so far: 0.9377
+[2025-01-20 15:37]  Epoch304 miou: 0.8730 	| best mdice so far: 0.9377
+
+[2025-01-20 15:37]  Epoch305 mdice: 0.9335 	| best mdice so far: 0.9377
+[2025-01-20 15:37]  Epoch305 miou: 0.8789 	| best mdice so far: 0.9377
+
+[2025-01-20 15:37]  Epoch306 mdice: 0.9313 	| best mdice so far: 0.9377
+[2025-01-20 15:37]  Epoch306 miou: 0.8753 	| best mdice so far: 0.9377
+
+[2025-01-20 15:38]  Epoch307 mdice: 0.9316 	| best mdice so far: 0.9377
+[2025-01-20 15:38]  Epoch307 miou: 0.8758 	| best mdice so far: 0.9377
+
+[2025-01-20 15:38]  Epoch308 mdice: 0.9280 	| best mdice so far: 0.9377
+[2025-01-20 15:38]  Epoch308 miou: 0.8698 	| best mdice so far: 0.9377
+
+[2025-01-20 15:38]  Epoch309 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:38]  Epoch309 miou: 0.8717 	| best mdice so far: 0.9377
+
+[2025-01-20 15:38]  Epoch310 mdice: 0.9298 	| best mdice so far: 0.9377
+[2025-01-20 15:38]  Epoch310 miou: 0.8729 	| best mdice so far: 0.9377
+
+[2025-01-20 15:38]  Epoch311 mdice: 0.9305 	| best mdice so far: 0.9377
+[2025-01-20 15:38]  Epoch311 miou: 0.8740 	| best mdice so far: 0.9377
+
+[2025-01-20 15:39]  Epoch312 mdice: 0.9323 	| best mdice so far: 0.9377
+[2025-01-20 15:39]  Epoch312 miou: 0.8770 	| best mdice so far: 0.9377
+
+[2025-01-20 15:39]  Epoch313 mdice: 0.9302 	| best mdice so far: 0.9377
+[2025-01-20 15:39]  Epoch313 miou: 0.8735 	| best mdice so far: 0.9377
+
+[2025-01-20 15:39]  Epoch314 mdice: 0.9295 	| best mdice so far: 0.9377
+[2025-01-20 15:39]  Epoch314 miou: 0.8723 	| best mdice so far: 0.9377
+
+[2025-01-20 15:39]  Epoch315 mdice: 0.9304 	| best mdice so far: 0.9377
+[2025-01-20 15:39]  Epoch315 miou: 0.8739 	| best mdice so far: 0.9377
+
+[2025-01-20 15:39]  Epoch316 mdice: 0.9296 	| best mdice so far: 0.9377
+[2025-01-20 15:39]  Epoch316 miou: 0.8725 	| best mdice so far: 0.9377
+
+[2025-01-20 15:40]  Epoch317 mdice: 0.9315 	| best mdice so far: 0.9377
+[2025-01-20 15:40]  Epoch317 miou: 0.8756 	| best mdice so far: 0.9377
+
+[2025-01-20 15:40]  Epoch318 mdice: 0.9304 	| best mdice so far: 0.9377
+[2025-01-20 15:40]  Epoch318 miou: 0.8738 	| best mdice so far: 0.9377
+
+[2025-01-20 15:40]  Epoch319 mdice: 0.9300 	| best mdice so far: 0.9377
+[2025-01-20 15:40]  Epoch319 miou: 0.8732 	| best mdice so far: 0.9377
+
+[2025-01-20 15:40]  Epoch320 mdice: 0.9278 	| best mdice so far: 0.9377
+[2025-01-20 15:40]  Epoch320 miou: 0.8696 	| best mdice so far: 0.9377
+
+[2025-01-20 15:40]  Epoch321 mdice: 0.9281 	| best mdice so far: 0.9377
+[2025-01-20 15:40]  Epoch321 miou: 0.8700 	| best mdice so far: 0.9377
+
+[2025-01-20 15:41]  Epoch322 mdice: 0.9264 	| best mdice so far: 0.9377
+[2025-01-20 15:41]  Epoch322 miou: 0.8672 	| best mdice so far: 0.9377
+
+[2025-01-20 15:41]  Epoch323 mdice: 0.9275 	| best mdice so far: 0.9377
+[2025-01-20 15:41]  Epoch323 miou: 0.8691 	| best mdice so far: 0.9377
+
+[2025-01-20 15:41]  Epoch324 mdice: 0.9264 	| best mdice so far: 0.9377
+[2025-01-20 15:41]  Epoch324 miou: 0.8672 	| best mdice so far: 0.9377
+
+[2025-01-20 15:41]  Epoch325 mdice: 0.9290 	| best mdice so far: 0.9377
+[2025-01-20 15:41]  Epoch325 miou: 0.8715 	| best mdice so far: 0.9377
+
+[2025-01-20 15:41]  Epoch326 mdice: 0.9303 	| best mdice so far: 0.9377
+[2025-01-20 15:41]  Epoch326 miou: 0.8737 	| best mdice so far: 0.9377
+
+[2025-01-20 15:42]  Epoch327 mdice: 0.9276 	| best mdice so far: 0.9377
+[2025-01-20 15:42]  Epoch327 miou: 0.8691 	| best mdice so far: 0.9377
+
+[2025-01-20 15:42]  Epoch328 mdice: 0.9282 	| best mdice so far: 0.9377
+[2025-01-20 15:42]  Epoch328 miou: 0.8701 	| best mdice so far: 0.9377
+
+[2025-01-20 15:42]  Epoch329 mdice: 0.9308 	| best mdice so far: 0.9377
+[2025-01-20 15:42]  Epoch329 miou: 0.8745 	| best mdice so far: 0.9377
+
+[2025-01-20 15:42]  Epoch330 mdice: 0.9276 	| best mdice so far: 0.9377
+[2025-01-20 15:42]  Epoch330 miou: 0.8692 	| best mdice so far: 0.9377
+
+[2025-01-20 15:42]  Epoch331 mdice: 0.9282 	| best mdice so far: 0.9377
+[2025-01-20 15:42]  Epoch331 miou: 0.8702 	| best mdice so far: 0.9377
+
+[2025-01-20 15:43]  Epoch332 mdice: 0.9277 	| best mdice so far: 0.9377
+[2025-01-20 15:43]  Epoch332 miou: 0.8693 	| best mdice so far: 0.9377
+
+[2025-01-20 15:43]  Epoch333 mdice: 0.9290 	| best mdice so far: 0.9377
+[2025-01-20 15:43]  Epoch333 miou: 0.8715 	| best mdice so far: 0.9377
+
+[2025-01-20 15:43]  Epoch334 mdice: 0.9303 	| best mdice so far: 0.9377
+[2025-01-20 15:43]  Epoch334 miou: 0.8736 	| best mdice so far: 0.9377
+
+[2025-01-20 15:43]  Epoch335 mdice: 0.9276 	| best mdice so far: 0.9377
+[2025-01-20 15:43]  Epoch335 miou: 0.8693 	| best mdice so far: 0.9377
+
+[2025-01-20 15:43]  Epoch336 mdice: 0.9295 	| best mdice so far: 0.9377
+[2025-01-20 15:43]  Epoch336 miou: 0.8724 	| best mdice so far: 0.9377
+
+[2025-01-20 15:44]  Epoch337 mdice: 0.9294 	| best mdice so far: 0.9377
+[2025-01-20 15:44]  Epoch337 miou: 0.8722 	| best mdice so far: 0.9377
+
+[2025-01-20 15:44]  Epoch338 mdice: 0.9295 	| best mdice so far: 0.9377
+[2025-01-20 15:44]  Epoch338 miou: 0.8723 	| best mdice so far: 0.9377
+
+[2025-01-20 15:44]  Epoch339 mdice: 0.9283 	| best mdice so far: 0.9377
+[2025-01-20 15:44]  Epoch339 miou: 0.8703 	| best mdice so far: 0.9377
+
+[2025-01-20 15:44]  Epoch340 mdice: 0.9294 	| best mdice so far: 0.9377
+[2025-01-20 15:44]  Epoch340 miou: 0.8721 	| best mdice so far: 0.9377
+
+[2025-01-20 15:44]  Epoch341 mdice: 0.9306 	| best mdice so far: 0.9377
+[2025-01-20 15:44]  Epoch341 miou: 0.8741 	| best mdice so far: 0.9377
+
+[2025-01-20 15:45]  Epoch342 mdice: 0.9297 	| best mdice so far: 0.9377
+[2025-01-20 15:45]  Epoch342 miou: 0.8726 	| best mdice so far: 0.9377
+
+[2025-01-20 15:45]  Epoch343 mdice: 0.9296 	| best mdice so far: 0.9377
+[2025-01-20 15:45]  Epoch343 miou: 0.8725 	| best mdice so far: 0.9377
+
+[2025-01-20 15:45]  Epoch344 mdice: 0.9294 	| best mdice so far: 0.9377
+[2025-01-20 15:45]  Epoch344 miou: 0.8722 	| best mdice so far: 0.9377
+
+[2025-01-20 15:45]  Epoch345 mdice: 0.9290 	| best mdice so far: 0.9377
+[2025-01-20 15:45]  Epoch345 miou: 0.8714 	| best mdice so far: 0.9377
+
+[2025-01-20 15:45]  Epoch346 mdice: 0.9316 	| best mdice so far: 0.9377
+[2025-01-20 15:45]  Epoch346 miou: 0.8759 	| best mdice so far: 0.9377
+
+[2025-01-20 15:46]  Epoch347 mdice: 0.9306 	| best mdice so far: 0.9377
+[2025-01-20 15:46]  Epoch347 miou: 0.8741 	| best mdice so far: 0.9377
+
+[2025-01-20 15:46]  Epoch348 mdice: 0.9298 	| best mdice so far: 0.9377
+[2025-01-20 15:46]  Epoch348 miou: 0.8727 	| best mdice so far: 0.9377
+
+[2025-01-20 15:46]  Epoch349 mdice: 0.9297 	| best mdice so far: 0.9377
+[2025-01-20 15:46]  Epoch349 miou: 0.8727 	| best mdice so far: 0.9377
+
+[2025-01-20 15:46]  Epoch350 mdice: 0.9296 	| best mdice so far: 0.9377
+[2025-01-20 15:46]  Epoch350 miou: 0.8726 	| best mdice so far: 0.9377
+
+[2025-01-20 15:46]  Epoch351 mdice: 0.9298 	| best mdice so far: 0.9377
+[2025-01-20 15:46]  Epoch351 miou: 0.8728 	| best mdice so far: 0.9377
+
+[2025-01-20 15:47]  Epoch352 mdice: 0.9300 	| best mdice so far: 0.9377
+[2025-01-20 15:47]  Epoch352 miou: 0.8731 	| best mdice so far: 0.9377
+
+[2025-01-20 15:47]  Epoch353 mdice: 0.9304 	| best mdice so far: 0.9377
+[2025-01-20 15:47]  Epoch353 miou: 0.8738 	| best mdice so far: 0.9377
+
+[2025-01-20 15:47]  Epoch354 mdice: 0.9305 	| best mdice so far: 0.9377
+[2025-01-20 15:47]  Epoch354 miou: 0.8740 	| best mdice so far: 0.9377
+
+[2025-01-20 15:47]  Epoch355 mdice: 0.9295 	| best mdice so far: 0.9377
+[2025-01-20 15:47]  Epoch355 miou: 0.8723 	| best mdice so far: 0.9377
+
+[2025-01-20 15:47]  Epoch356 mdice: 0.9292 	| best mdice so far: 0.9377
+[2025-01-20 15:47]  Epoch356 miou: 0.8718 	| best mdice so far: 0.9377
+
+[2025-01-20 15:48]  Epoch357 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:48]  Epoch357 miou: 0.8717 	| best mdice so far: 0.9377
+
+[2025-01-20 15:48]  Epoch358 mdice: 0.9288 	| best mdice so far: 0.9377
+[2025-01-20 15:48]  Epoch358 miou: 0.8712 	| best mdice so far: 0.9377
+
+[2025-01-20 15:48]  Epoch359 mdice: 0.9294 	| best mdice so far: 0.9377
+[2025-01-20 15:48]  Epoch359 miou: 0.8722 	| best mdice so far: 0.9377
+
+[2025-01-20 15:48]  Epoch360 mdice: 0.9283 	| best mdice so far: 0.9377
+[2025-01-20 15:48]  Epoch360 miou: 0.8703 	| best mdice so far: 0.9377
+
+[2025-01-20 15:48]  Epoch361 mdice: 0.9285 	| best mdice so far: 0.9377
+[2025-01-20 15:48]  Epoch361 miou: 0.8708 	| best mdice so far: 0.9377
+
+[2025-01-20 15:49]  Epoch362 mdice: 0.9287 	| best mdice so far: 0.9377
+[2025-01-20 15:49]  Epoch362 miou: 0.8711 	| best mdice so far: 0.9377
+
+[2025-01-20 15:49]  Epoch363 mdice: 0.9286 	| best mdice so far: 0.9377
+[2025-01-20 15:49]  Epoch363 miou: 0.8708 	| best mdice so far: 0.9377
+
+[2025-01-20 15:49]  Epoch364 mdice: 0.9289 	| best mdice so far: 0.9377
+[2025-01-20 15:49]  Epoch364 miou: 0.8714 	| best mdice so far: 0.9377
+
+[2025-01-20 15:49]  Epoch365 mdice: 0.9288 	| best mdice so far: 0.9377
+[2025-01-20 15:49]  Epoch365 miou: 0.8712 	| best mdice so far: 0.9377
+
+[2025-01-20 15:49]  Epoch366 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:49]  Epoch366 miou: 0.8717 	| best mdice so far: 0.9377
+
+[2025-01-20 15:50]  Epoch367 mdice: 0.9288 	| best mdice so far: 0.9377
+[2025-01-20 15:50]  Epoch367 miou: 0.8712 	| best mdice so far: 0.9377
+
+[2025-01-20 15:50]  Epoch368 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:50]  Epoch368 miou: 0.8717 	| best mdice so far: 0.9377
+
+[2025-01-20 15:50]  Epoch369 mdice: 0.9294 	| best mdice so far: 0.9377
+[2025-01-20 15:50]  Epoch369 miou: 0.8722 	| best mdice so far: 0.9377
+
+[2025-01-20 15:50]  Epoch370 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:50]  Epoch370 miou: 0.8717 	| best mdice so far: 0.9377
+
+[2025-01-20 15:50]  Epoch371 mdice: 0.9292 	| best mdice so far: 0.9377
+[2025-01-20 15:50]  Epoch371 miou: 0.8719 	| best mdice so far: 0.9377
+
+[2025-01-20 15:51]  Epoch372 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:51]  Epoch372 miou: 0.8716 	| best mdice so far: 0.9377
+
+[2025-01-20 15:51]  Epoch373 mdice: 0.9296 	| best mdice so far: 0.9377
+[2025-01-20 15:51]  Epoch373 miou: 0.8724 	| best mdice so far: 0.9377
+
+[2025-01-20 15:51]  Epoch374 mdice: 0.9290 	| best mdice so far: 0.9377
+[2025-01-20 15:51]  Epoch374 miou: 0.8715 	| best mdice so far: 0.9377
+
+[2025-01-20 15:51]  Epoch375 mdice: 0.9292 	| best mdice so far: 0.9377
+[2025-01-20 15:51]  Epoch375 miou: 0.8718 	| best mdice so far: 0.9377
+
+[2025-01-20 15:51]  Epoch376 mdice: 0.9300 	| best mdice so far: 0.9377
+[2025-01-20 15:51]  Epoch376 miou: 0.8731 	| best mdice so far: 0.9377
+
+[2025-01-20 15:52]  Epoch377 mdice: 0.9295 	| best mdice so far: 0.9377
+[2025-01-20 15:52]  Epoch377 miou: 0.8723 	| best mdice so far: 0.9377
+
+[2025-01-20 15:52]  Epoch378 mdice: 0.9298 	| best mdice so far: 0.9377
+[2025-01-20 15:52]  Epoch378 miou: 0.8728 	| best mdice so far: 0.9377
+
+[2025-01-20 15:52]  Epoch379 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:52]  Epoch379 miou: 0.8717 	| best mdice so far: 0.9377
+
+[2025-01-20 15:52]  Epoch380 mdice: 0.9288 	| best mdice so far: 0.9377
+[2025-01-20 15:52]  Epoch380 miou: 0.8711 	| best mdice so far: 0.9377
+
+[2025-01-20 15:52]  Epoch381 mdice: 0.9297 	| best mdice so far: 0.9377
+[2025-01-20 15:52]  Epoch381 miou: 0.8726 	| best mdice so far: 0.9377
+
+[2025-01-20 15:53]  Epoch382 mdice: 0.9293 	| best mdice so far: 0.9377
+[2025-01-20 15:53]  Epoch382 miou: 0.8719 	| best mdice so far: 0.9377
+
+[2025-01-20 15:53]  Epoch383 mdice: 0.9293 	| best mdice so far: 0.9377
+[2025-01-20 15:53]  Epoch383 miou: 0.8720 	| best mdice so far: 0.9377
+
+[2025-01-20 15:53]  Epoch384 mdice: 0.9294 	| best mdice so far: 0.9377
+[2025-01-20 15:53]  Epoch384 miou: 0.8721 	| best mdice so far: 0.9377
+
+[2025-01-20 15:53]  Epoch385 mdice: 0.9290 	| best mdice so far: 0.9377
+[2025-01-20 15:53]  Epoch385 miou: 0.8716 	| best mdice so far: 0.9377
+
+[2025-01-20 15:53]  Epoch386 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:53]  Epoch386 miou: 0.8717 	| best mdice so far: 0.9377
+
+[2025-01-20 15:54]  Epoch387 mdice: 0.9301 	| best mdice so far: 0.9377
+[2025-01-20 15:54]  Epoch387 miou: 0.8733 	| best mdice so far: 0.9377
+
+[2025-01-20 15:54]  Epoch388 mdice: 0.9298 	| best mdice so far: 0.9377
+[2025-01-20 15:54]  Epoch388 miou: 0.8728 	| best mdice so far: 0.9377
+
+[2025-01-20 15:54]  Epoch389 mdice: 0.9296 	| best mdice so far: 0.9377
+[2025-01-20 15:54]  Epoch389 miou: 0.8725 	| best mdice so far: 0.9377
+
+[2025-01-20 15:54]  Epoch390 mdice: 0.9291 	| best mdice so far: 0.9377
+[2025-01-20 15:54]  Epoch390 miou: 0.8716 	| best mdice so far: 0.9377
+
+[2025-01-20 15:54]  Epoch391 mdice: 0.9297 	| best mdice so far: 0.9377
+[2025-01-20 15:54]  Epoch391 miou: 0.8726 	| best mdice so far: 0.9377
+
+[2025-01-20 15:55]  Epoch392 mdice: 0.9296 	| best mdice so far: 0.9377
+[2025-01-20 15:55]  Epoch392 miou: 0.8725 	| best mdice so far: 0.9377
+
+[2025-01-20 15:55]  Epoch393 mdice: 0.9297 	| best mdice so far: 0.9377
+[2025-01-20 15:55]  Epoch393 miou: 0.8726 	| best mdice so far: 0.9377
+
+[2025-01-20 15:55]  Epoch394 mdice: 0.9296 	| best mdice so far: 0.9377
+[2025-01-20 15:55]  Epoch394 miou: 0.8726 	| best mdice so far: 0.9377
+
+[2025-01-20 15:55]  Epoch395 mdice: 0.9297 	| best mdice so far: 0.9377
+[2025-01-20 15:55]  Epoch395 miou: 0.8726 	| best mdice so far: 0.9377
+
+[2025-01-20 15:55]  Epoch396 mdice: 0.9294 	| best mdice so far: 0.9377
+[2025-01-20 15:55]  Epoch396 miou: 0.8721 	| best mdice so far: 0.9377
+
+[2025-01-20 15:56]  Epoch397 mdice: 0.9295 	| best mdice so far: 0.9377
+[2025-01-20 15:56]  Epoch397 miou: 0.8723 	| best mdice so far: 0.9377
+
+[2025-01-20 15:56]  Epoch398 mdice: 0.9294 	| best mdice so far: 0.9377
+[2025-01-20 15:56]  Epoch398 miou: 0.8721 	| best mdice so far: 0.9377
+
+[2025-01-20 15:56]  Epoch399 mdice: 0.9299 	| best mdice so far: 0.9377
+[2025-01-20 15:56]  Epoch399 miou: 0.8730 	| best mdice so far: 0.9377
+
+[2025-01-20 15:56] 
+Train 400 epochs finished!
+
+[2025-01-20 15:56] ##################################################
+Validation for the best checkpoint...
+[2025-01-20 15:56] 
+
+Train 400 epochs finished.
+
+Best mdice is: 0.9377
+
+[2025-01-20 15:56] 
+
+Train 400 epochs finished.
+
+Best miou is: 0.8858
+
+[2025-01-20 15:56] Best validation score is 0.9376956224441528.
+
+[2025-01-20 15:56] 
+Train 400 epochs finished!
+
+[2025-01-20 15:56] ##################################################
+Validation for the best checkpoint...
+[2025-01-20 15:56] 
+
+Train 400 epochs finished.
+
+Best mdice is: 0.9581
+
+[2025-01-20 15:56] 
+
+Train 400 epochs finished.
+
+Best miou is: 0.9209
+
+[2025-01-20 15:56] Best validation score is 0.9580518007278442.
+
